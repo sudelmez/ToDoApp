@@ -24,7 +24,7 @@ const App = () => {
     <SafeAreaView>
       <SearchBar onSearch={handleSearch} />
       <ButtonCustom onPress={handleButtonPress} />
-      <FlatList data={words} renderItem={({ item }) => <CardComponent title={item} />} />
+      <FlatList data={words} renderItem={({ item }) => <CardComponent title={item}/>} />
     </SafeAreaView>
   );
 };

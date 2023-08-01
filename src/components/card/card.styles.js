@@ -14,6 +14,17 @@ const styles = StyleSheet.create({
         alignSelf: 'center',
         width: '90%'
     },
+    deletedcontainer: {
+        backgroundColor: 'red',
+        margin: 10,
+        padding: 10,
+        borderRadius: 10,
+        height: 40,
+        borderWidth: 1,
+        borderColor: '#000',
+        alignSelf: 'center',
+        width: '90%'
+    },
 });
 
 export default styles;
